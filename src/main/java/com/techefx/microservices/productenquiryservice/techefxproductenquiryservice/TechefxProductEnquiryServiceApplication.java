@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients("com.techefx.microservices.productenquiryservice")
-//.techefxproductenquiryservice
+@EnableFeignClients()
 public class TechefxProductEnquiryServiceApplication {
 
     public static void main(String[] args) {
